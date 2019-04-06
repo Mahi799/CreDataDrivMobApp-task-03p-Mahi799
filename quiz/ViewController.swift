@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var answerLabel: UILabel!
     
-    let questions: [String] = ["Which nuts are used in marzipan?", "From which country does pitta bread originate?","What is called a meal in open air?","What type of plant do prickly pears grow on?","which is most effective way to recollect memory?"]
+    let questions: [String] = ["Which nuts are used in marzipan?", "which country does pitta bread?","What is a meal in air?","plant which prickly pears grow on?","which is effective way to get memory?"]
     let answers: [String] = ["Almonds","Greece","picnic","something","listening to music"]
     var currentQuestionIndex: Int = 0
     
